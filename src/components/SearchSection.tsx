@@ -45,22 +45,22 @@ export function SearchSection() {
       </motion.p>
 
       {/* Platform cards */}
-      <div className="grid md:grid-cols-3 gap-12 md:gap-8 mb-20 max-w-5xl mx-auto">
+      <div className="grid md:grid-cols-3 gap-6 mb-20 max-w-5xl mx-auto">
         {platforms.map((platform, i) => (
           <motion.div
             key={platform.name}
             {...fadeUp(i * 0.1)}
-            className="flex flex-col items-center gap-4"
+            className="liquid-glass rounded-2xl p-8 flex flex-col items-center gap-5"
           >
             <img
               src={platform.icon}
               alt={platform.name}
-              className="w-[200px] h-[200px] object-contain"
+              className="w-24 h-24 object-contain"
             />
             <h3 className="font-semibold text-base text-foreground">
               {platform.name}
             </h3>
-            <p className="text-muted-foreground text-sm max-w-xs leading-relaxed">
+            <p className="text-muted-foreground text-sm leading-relaxed">
               {platform.description}
             </p>
           </motion.div>

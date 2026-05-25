@@ -28,23 +28,6 @@ export function HeroSection() {
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4 pt-28 md:pt-32 pb-32 md:pb-40">
-        {/* Avatar row */}
-        <motion.div {...fadeUp(0)} className="flex items-center gap-3 mb-8">
-          <div className="flex -space-x-2">
-            {[1, 2, 3].map((n) => (
-              <img
-                key={n}
-                src={`${import.meta.env.BASE_URL}assets/avatar-${n}.png`}
-                alt={`Subscriber ${n}`}
-                className="w-8 h-8 rounded-full border-2 border-background object-cover"
-              />
-            ))}
-          </div>
-          <span className="text-muted-foreground text-sm">
-            A design experiment — Claude AI &amp; Framer Motion
-          </span>
-        </motion.div>
-
         {/* Heading */}
         <motion.h1
           {...fadeUp(0.1)}
