@@ -3,19 +3,19 @@ import { fadeUp } from '@/lib/animations'
 
 const platforms = [
   {
-    icon: '/assets/icon-chatgpt.svg',
+    icon: `${import.meta.env.BASE_URL}assets/icon-chatgpt.png`,
     name: 'ChatGPT',
     description:
       "The first stop for millions of daily questions. If your voice isn't there, someone else's already is.",
   },
   {
-    icon: '/assets/icon-perplexity.svg',
+    icon: `${import.meta.env.BASE_URL}assets/icon-perplexity.png`,
     name: 'Perplexity',
     description:
       'Real-time answers with cited sources — replacing the search bar for anyone who wants depth over a list of links.',
   },
   {
-    icon: '/assets/icon-google.svg',
+    icon: `${import.meta.env.BASE_URL}assets/icon-google.png`,
     name: 'Google AI',
     description:
       'Search is becoming a conversation. Visibility now means being part of the answer, not just appearing in results.',

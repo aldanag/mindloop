@@ -34,7 +34,7 @@ export function HeroSection() {
             {[1, 2, 3].map((n) => (
               <img
                 key={n}
-                src={`/assets/avatar-${n}.svg`}
+                src={`${import.meta.env.BASE_URL}assets/avatar-${n}.png`}
                 alt={`Subscriber ${n}`}
                 className="w-8 h-8 rounded-full border-2 border-background object-cover"
               />
