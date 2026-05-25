@@ -6,7 +6,7 @@ const platforms = [
     icon: '/assets/icon-chatgpt.svg',
     name: 'ChatGPT',
     description:
-      'The first stop for millions of daily questions. If your voice isn't there, someone else's already is.',
+      "The first stop for millions of daily questions. If your voice isn't there, someone else's already is.",
   },
   {
     icon: '/assets/icon-perplexity.svg',
