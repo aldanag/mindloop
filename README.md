@@ -1,12 +1,10 @@
-# Mindloop
+# Strata
 
 A fictional newsletter and content platform — built as a personal experiment to explore **Claude AI**, **Framer Motion**, and dark monochrome UI systems.
 
-![Mindloop Hero](public/assets/preview.png)
-
 ## About
 
-Mindloop is not a real product. It's a design and front-end exploration built entirely with AI assistance (Claude by Anthropic), used as a sandbox to push the limits of scroll-driven animation, liquid-glass visual effects, and modern React architecture.
+Strata is not a real product. It's a design and front-end exploration built entirely with AI assistance (Claude by Anthropic), used as a sandbox to push the limits of scroll-driven animation, liquid-glass visual effects, and modern React architecture.
 
 ## Stack
 
@@ -33,7 +31,7 @@ Mindloop is not a real product. It's a design and front-end exploration built en
 
 1. **Navbar** — fixed transparent, concentric-circle logo, liquid-glass icon buttons
 2. **Hero** — full-viewport MP4 background, email subscribe form
-3. **Search** — AI platform cards, serif italic headline
+3. **Search** — AI platform cards with liquid-glass containers
 4. **Mission** — scroll-driven word-by-word reveal with highlighted key words
 5. **Solution** — cinematic 3:1 video banner, 4-column feature grid
 6. **CTA** — HLS streaming background, dual CTA buttons
@@ -46,17 +44,10 @@ npm install
 npm run dev
 ```
 
-## Asset replacement
+## Live
 
-Placeholder SVGs live in `public/assets/`. Replace with real PNGs:
-
-| File | Size | Usage |
-|---|---|---|
-| `avatar-1/2/3.png` | 64×64px | Hero subscriber avatars |
-| `icon-chatgpt/perplexity/google.png` | 200×200px | Search section platform icons |
-
-Video URLs are constants at the top of each section component — swap for your own CDN or local `public/assets/` files.
+[aldanag.github.io/strata](https://aldanag.github.io/strata/)
 
 ---
 
-*Designed & built by [Aldi González](https://github.com/94aldigonzalez) — experimental project, 2026.*
+*Designed & built by [Aldana González](https://github.com/aldanag) — experimental project, 2026.*
